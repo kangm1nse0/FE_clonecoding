@@ -38,6 +38,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 **Header**
 카메라로고+글씨 , 햄버거로고로 나누기 -> 양쪽으로 두기 위해서 
+
 **AlbumEx**
 -hero
  -title
@@ -45,8 +46,10 @@ https://getbootstrap.com/docs/4.3/examples/album/
  -but
   -bluebutton
   -graybutton
+
 **Cardlist**
 card를 반복시키기 위해 map 사용
+
 **Card**
 -card  반복과 shadow 위해 카드 단위로 묶기
  -picture
@@ -54,5 +57,6 @@ card를 반복시키기 위해 map 사용
  -undercontent 묶은 버튼들 ,시간으로 class 나누기 -> 양쪽으로 두기 위해서 
   -cardbuttons 
   -time
+  
 **Footer**
 
