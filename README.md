@@ -23,9 +23,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 (이곳에 구현한 이미지를 이곳에 첨부해주세요. 아래는 예시 이미지입니다.)
 
-![](https://velog.velcdn.com/images/wuzoo/post/509d4112-3edb-482d-82cb-89edf105a060/image.png)
-
-![스크린샷](FE_clonecoding\image-1.png)
+![alt text](image-1.png)
 
 ## 구현 조건
 
@@ -58,6 +56,3 @@ card를 반복시키기 위해 map 사용
   -time
 **Footer**
 
-
-
-![](https://velog.velcdn.com/images/wuzoo/post/ab092dd4-595e-41ab-a850-85cab0c83e80/image.png)
