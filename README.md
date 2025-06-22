@@ -25,6 +25,8 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 ![](https://velog.velcdn.com/images/wuzoo/post/509d4112-3edb-482d-82cb-89edf105a060/image.png)
 
+![스크린샷](FE_clonecoding\image-1.png)
+
 ## 구현 조건
 
 1. `components`, `assets`, `pages` 3개의 폴더로 구분하여 개발합니다.
@@ -34,5 +36,28 @@ https://getbootstrap.com/docs/4.3/examples/album/
 ## 컴포넌트 계층 구조
 
 주된 컴포넌트인 헤더, 푸터, 포토카드(사진과 글이 있는 것), 버튼에 대해 어떤 계층으로 설계했는지 이곳에 작성해주세요. 그리고 자식 컴포넌트 들에 대해서 어떤 의도를 갖고 설계했는지(ex 정렬하기 위해서, border를 주기 위해서 등) 부담없이 간단하게 적으면 됩니다. (아래는 예시입니다.)
+
+
+**Header**
+카메라로고+글씨 , 햄버거로고로 나누기 -> 양쪽으로 두기 위해서 
+**AlbumEx**
+-hero
+ -title
+ -content
+ -but
+  -bluebutton
+  -graybutton
+**Cardlist**
+card를 반복시키기 위해 map 사용
+**Card**
+-card  반복과 shadow 위해 카드 단위로 묶기
+ -picture
+ -cardcontent
+ -undercontent 묶은 버튼들 ,시간으로 class 나누기 -> 양쪽으로 두기 위해서 
+  -cardbuttons 
+  -time
+**Footer**
+
+
 
 ![](https://velog.velcdn.com/images/wuzoo/post/ab092dd4-595e-41ab-a850-85cab0c83e80/image.png)

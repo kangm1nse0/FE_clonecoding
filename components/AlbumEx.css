@@ -1,0 +1,40 @@
+.hero{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: white;
+}
+.title{
+text-align: center;
+ font-weight: 400;
+}
+.content{
+    text-align: center;
+    color: gray;
+     font-weight: 300;
+     padding: 3;
+}
+.but{
+border-radius: 5px;
+ display: flex;
+justify-content:space-evenly;
+color: grey;
+padding: 10px;
+}
+.bluebutton{
+background-color: #1e7cfc;
+border: none;
+color: white;
+border-radius: 5px;
+width: 200px;  
+font-size: 15px;
+}
+.graybutton{
+background-color: lightgray;
+border: none;
+color: white;
+border-radius: 5px;
+margin: 5px;
+width: 200px;  
+font-size: 15px;
+}
+

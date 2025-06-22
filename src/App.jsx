@@ -1,9 +1,8 @@
-function App() {
-
+import React from 'react'
+import Album from '../pages/Album'
+const App = () => {
   return (
-    <>
-      화이팅! 
-    </>
+   <Album/>
   )
 }
 

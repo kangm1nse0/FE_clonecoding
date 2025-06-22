@@ -1,0 +1,18 @@
+.header{
+    background-color: #343b3b;
+    position:fixed;
+    height: 40px;
+    top:0;
+    left: 0;
+    right:0;
+    color: white;
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+     display: flex;
+      font-size: 26px;
+}
